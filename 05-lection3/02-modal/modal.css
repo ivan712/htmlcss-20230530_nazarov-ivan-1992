@@ -1,0 +1,50 @@
+#modal {
+  display: none;
+}
+
+.modal__wrapper {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #c4c4c4;
+}
+
+.modal__window {
+  width: 428px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 30px 40px 33px 40px;
+  position: relative;
+  /* transform: translateX(-50%); */
+}
+
+.modal__cross {
+  display: inline;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.modal__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #334d6e;
+  padding-bottom: 14px;
+}
+
+.modal__text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #495057;
+}
