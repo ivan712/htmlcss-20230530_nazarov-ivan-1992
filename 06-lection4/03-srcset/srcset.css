@@ -1,0 +1,11 @@
+.picture {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.picture__image {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
